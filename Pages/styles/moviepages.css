@@ -1,0 +1,12 @@
+body{
+    padding-top: 100px;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+}
+
+div h2{
+    font-size: 3rem;
+    margin: 1rem;
+}

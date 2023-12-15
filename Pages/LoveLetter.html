@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Letter</title>
+    <link rel="stylesheet" href="styles/moviepages.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><h1>Movies</h1></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menus</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Movies
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="BattleRoyale.html"
+                      >Battle Royale</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="OurLittleSister.html"
+                      >Our Little Sister</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="LittleForest.html"
+                      >Little Forest</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item active" href="LoveLetter.html"
+                      >Love Letter</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Navigation bar-->
+
+    <!--Content-->
+    <div class="container">
+      <!--Main Content-->
+      <div class="row justify-content-center">
+        <!--Movie Card & Description-->
+        <div class="card mb-3" style="max-width: 840px">
+          <div class="row g-0">
+            <div class="col-md-4 col-lg">
+              <img
+                src="../Images/LoveLetterPoster.png"
+                class="img-fluid rounded-start m-1 p-1"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8 col-lg">
+              <div class="card-body">
+                <div class="bg-body-secondary p-2">
+                  <h2 class="card-title text-center">Love Letter</h2>
+                </div>
+                <p class="card-text">
+                  Despite the years that have passed, Hiroko Watanabe (Miho
+                  Nakayama) is still grieving the death of her fiancé, who died
+                  unexpectedly while climbing a mountain. When Hiroko discovers
+                  her deceased lover's childhood address, she impulsively writes
+                  to him, and is shocked to receive a letter in reply. However,
+                  the note's author is Itsuki Fujii (also Nakayama), a young
+                  woman who shares the same name as Hiroko's late boyfriend. As
+                  the two women exchange letters, they begin an unusual
+                  relationship.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Release Date: March 25, 1995</small
+                  >
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Director: Shunji Iwai</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Main Content-->
+      </div>
+      <!--Main Content-->
+
+      <div class="bg-body-secondary p-2">
+        <h2 class="text-center">Stills</h2>
+      </div>
+      <!--Image Carousel-->
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../Images/LoveLetter1.jpg"
+              class="img-fluid d-block w-100 h100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../Images/LoveLetter2.jpg"
+              class="img-fluid d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Image Carousel-->
+      <!--Stills Carousel-->
+    </div>
+    <!--Content-->
+  </body>
+</html>
